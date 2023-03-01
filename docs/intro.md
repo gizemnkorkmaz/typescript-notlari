@@ -2,46 +2,21 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# TypeScript nedir?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Notlara geçmeden önce TypeScript nedir ve ne işe yarar **kısa bir göz atalım**.
 
-## Getting Started
+Temelde TypeScript, JavaScript kodunun okunabilirliğini ve sürdürülebilirliğini artırmak için statik tipleme özellikleri ekleyerek JavaScript'in eksiklerini giderir.
 
-Get started by **creating a new site**.
+TypeScript, JavaScript kodunu yazarken hataları erken aşamada tespit ederek geliştirme sürecini hızlandırır. Ayrıca, büyük projelerde çalışırken, değişkenlerin ve fonksiyonların türlerini belirterek kodun anlaşılırlığını artırır ve ekibin birlikte çalışmasını kolaylaştırır.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Microsoft tarafından geliştirilmekte ve desteklenmekte olan TypeScript; bünyesinde barındırdığı derleyici sayesinde, yazılan kodu JavaScript koduna çevirir. TypeScript gerek istemci taraflı, gerekse sunucu taraflı yazılım geliştirmede kullanılabilmektedir.
 
-### What you'll need
+## TypeScript Handbook
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+TypeScript'in resmi sitesinde bulunan **[TS handbook](https://www.typescriptlang.org/docs/handbook/)** adlı dokümanda JavaScript ile TypeScript arasında tuhaf bir ilişki olduğundan bahsedilir. TypeScript, JavaScript'in sunduğu tüm özellikleri vermekle beraber bunların üzerine ek bir katman daha ekler: TypeScript'in **type** sistemi.
 
-## Generate a new site
+Örneğin JavaScript ile `sting` ve `number` gibi primitive değerleri kullanırız ancak bunları tutarlı şekilde atadığınızın takibini yapmaz. TypeScript bunu yapar.
 
-Generate a new Docusaurus site using the **classic template**.
+Bu açıdan bakıldığında JavaScript kodlarınız zaten hali hazırda TypeScript kodudur. TypeScript sadece olası hatalardan sizi korumak için fayda sağlamakla görevlidir.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
