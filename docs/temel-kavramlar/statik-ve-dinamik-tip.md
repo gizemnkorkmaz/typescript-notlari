@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Dynamic ve Static Typing
 
-**TLDR:**
-
 Dynamic typing value (değer) ile ilgilidir ve tüm tip kontrolleri runtime'da yapılır. Bir değişkene herhangi bir değer atayabilirsiniz. Static typing ise variable (değişken) ya da textual expression ile ilgilidir ve compile-time'da, programınızı henüz çalıştırmadan önce kontrol edilir.
 
 ### Dynamic Typing
