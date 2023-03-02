@@ -66,7 +66,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Notes",
+            label: "TS Notes",
           },
           {
             href: "https://github.com/gizemnkorkmaz/ts-notes",
@@ -81,8 +81,13 @@ const config = {
         ],
       },
       prism: {
-        theme: darkCodeTheme,
-        darkTheme: lightCodeTheme,
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
     }),
 };

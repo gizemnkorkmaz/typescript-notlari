@@ -31,7 +31,14 @@ tsc --help
 
 `hello.ts` adında bir dosyanız olduğunu düşünelim. İçerisinde `person` ve `date` parametrelerini alan bir `greet` fonksiyonu olsun ve bu fonksiyonu sadece name argümanı ile çağıralım.
 
-![greet function](./img/greet-function.png)
+```bash
+// This is an industrial-grade general-purpose greeter function:
+function greet(person, date) {
+  console.log(`Hello ${person}, today is ${date}!`);
+}
+ 
+greet("Brendan");
+```
 
 `tsc hello.ts` komutu ile TypeScript compiler'ı çalıştırdığımızda ilk fark edeceğimiz şey output olarak içinde bulunduğumuz directory'de `hello.js` adında yeni bir dosya olacak. Bu `hello.ts` dosyasının `tsc` komutundan sonra  oluşturduğu bir JavaScript dosyası. Bu dosyanın dışında bir de command line'da şöyle bir hata ile karşılaşacağız:
 

@@ -16,7 +16,14 @@ JavaScript bize yalnızca **dynamic typing** (dinamik tipleme) sistemini sunar.
 
 Typescript'i bu bahsettiğimiz `TypeError` hatalarını henüz kodlarımızı çalıştırmadan önce bizim için fark edip gösterebilecek ve potansiyel hataların önüne geçebilecek bir **static type-checker** olarak düşünebilirsiniz. Şu örnekteki gibi bir `string` değerini çağırmaya çalıştığınızda daha kodunuzu çalıştırmadan önce hata mesajını verecektir.
 
-![static type checking](./img/static-type-cheking.png)
+```bash
+const message = "hello!";
+ 
+message();
+  ```
+
+ 🚨 `This expression is not callable.
+  Type 'String' has no call signatures.`
 
 ## Neden Static Typing?
 
