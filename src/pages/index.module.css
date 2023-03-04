@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   padding: 8rem;
+  position: relative;
 }
 
 .container h1 {
@@ -28,14 +29,22 @@
   font-size: 14px;
 }
 
+.footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 43%;
+  visibility: hidden;
+}
+
 @media screen and (max-width: 996px) {
   .container {
     padding: 2rem;
   }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .footer {
+    visibility: visible;
+  }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import clsx from "clsx";
+import Icon from "../components/Icon";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 
@@ -23,11 +23,34 @@ function HomepageHeader() {
   );
 }
 
+function HomepageFooter() {
+  return (
+    <footer className={styles.footer}>
+      <a
+        href="https://github.com/gizemnkorkmaz/eat-the-elephant"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Icon icon="github" size={20} color="#FFF" />
+      </a>
+      <a
+        href="https://twitter.com/gizemnkorkmaz"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Icon icon="twitter" size={20} color="#FFF" />
+      </a>
+    </footer>
+  );
+}
+
 export default function Home() {
   return (
     <Layout>
-      <HomepageHeader />
-      <main></main>
+      <main>
+        <HomepageHeader />
+        <HomepageFooter />
+      </main>
     </Layout>
   );
 }
