@@ -197,7 +197,7 @@ type ID = number | string;
 
 ## Interface
 
-Interface `object` tipini belirtmenin başka bir yolu.
+Interface `object` isimlendirmenin başka bir yoludur.
 
 ```bash
 interface Point {
@@ -212,4 +212,6 @@ function printCoord(pt: Point) {
  
 printCoord({ x: 100, y: 100 });
 ```
+
+Bu örnek de tıpkı `type` isimlendirmesi gibi çalışacaktır. TypeScript için önemli olan sadece `printCoord` için verilen değerin yapısıdır. Tek ilgilendiği istenilen propertyleri sağlamış olmasıdır. Bu yüzden de TypeScript'e **structurally typed** tip sistemi denilmektedir.
 

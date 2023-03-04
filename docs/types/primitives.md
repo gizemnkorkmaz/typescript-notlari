@@ -39,6 +39,9 @@ let undefinedValue: undefined = undefined;
 
 ```bash
 let symbol1 = Symbol("key");
+let symbol2 = Symbol("key");
+
+console.log(symbol1 === symbol2); // false 
 ```
 
 * [null](https://developer.mozilla.org/en-US/docs/Glossary/Null)
