@@ -64,13 +64,14 @@ type Window = {
   ts: TypeScriptAPI
 }
 
- // Error: Duplicate identifier 'Window'.
+ // Error: Duplicate identifier 'Window'. 🚨
 
 ```
 
 Bu iki tip hakkında daha detaylı notlar olacak ama TS handbook'a göre `type`'a ihtiyacınız olana kadar `interface` kullanabilirsiniz.
 
 #### Kaynaklar
+
 [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 
 [Interfaces vs. Types in Typescript - devgenius.io](https://blog.devgenius.io/interfaces-vs-types-in-typescript-7567ffe390cd)

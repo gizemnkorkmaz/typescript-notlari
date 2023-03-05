@@ -10,7 +10,7 @@ Temelde TypeScript, JavaScript kodunun okunabilirliğini ve sürdürülebilirli�
 
 TypeScript, JavaScript kodunu yazarken hataları erken aşamada tespit ederek geliştirme sürecini hızlandırır. Ayrıca, büyük projelerde çalışırken, değişkenlerin ve fonksiyonların türlerini belirterek kodun anlaşılırlığını artırır ve ekiplerin birlikte çalışmasını kolaylaştırır.
 
-Microsoft tarafından geliştirilen ve desteklenen, ücretsiz ve open source bir proje olan TypeScript bünyesinde barındırdığı derleyici sayesinde, yazılan kodu JavaScript koduna çevirir. TypeScript gerek client (istemci) taraflı, gerekse server (server) taraflı yazılım geliştirmede kullanılabilmektedir.
+Microsoft tarafından geliştirilen ve desteklenen, ücretsiz ve open source bir proje olan TypeScript bünyesinde barındırdığı derleyici sayesinde, yazılan kodu JavaScript koduna çevirir. TypeScript gerek client (istemci) taraflı, gerekse server (sunucu) taraflı yazılım geliştirmede kullanılabilmektedir.
 
 ## TypeScript Handbook
 

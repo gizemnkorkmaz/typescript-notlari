@@ -215,3 +215,7 @@ printCoord({ x: 100, y: 100 });
 
 Bu örnek de tıpkı `type` isimlendirmesi gibi çalışacaktır. TypeScript için önemli olan sadece `printCoord` için verilen değerin yapısıdır. Tek ilgilendiği istenilen propertyleri sağlamış olmasıdır. Bu yüzden de TypeScript'e **structurally typed** tip sistemi denilmektedir.
 
+### Kaynaklar
+
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+
