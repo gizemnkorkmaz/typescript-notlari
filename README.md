@@ -1,42 +1,28 @@
 # Website
 
+https://typescript-notlari.vercel.app/
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
+To use these notes, you can either clone this repository or download the source code as a ZIP file. Once you have the source code, you need to install the necessary dependencies by running the following command in the root directory of the project:
 
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+To view the notes, you can start a local development server by running the following command in the root directory of the project:
 
 ```
-$ yarn build
+$ npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This will launch a local server at http://localhost:3000 where you can view the notes in your web browser.
 
-### Deployment
 
-Using SSH:
+### Contributing
 
-```
-$ USE_SSH=true yarn deploy
-```
+If you find an error or want to contribute to these notes, please feel free to submit a pull request or open an issue on the GitHub repository.
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-# ts-notes

@@ -27,7 +27,7 @@ function HomepageFooter() {
   return (
     <footer className={styles.footer}>
       <a
-        href="https://github.com/gizemnkorkmaz/eat-the-elephant"
+        href="https://github.com/gizemnkorkmaz/typescript-notlari"
         target="_blank"
         rel="noreferrer"
       >

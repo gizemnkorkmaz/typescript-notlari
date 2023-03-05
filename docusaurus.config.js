@@ -65,7 +65,7 @@ const config = {
             label: "TS Notes",
           },
           {
-            href: "https://github.com/gizemnkorkmaz/ts-notes",
+            href: "https://github.com/gizemnkorkmaz/typescript-notlari",
             label: "GitHub",
             position: "right",
           },
