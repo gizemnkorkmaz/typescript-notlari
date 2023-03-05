@@ -58,3 +58,5 @@ tsc --noEmitOnError hello.ts
 [tsc, the TypeScript compiler - TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#tsc-the-typescript-compiler)
 
 [Compiling TypeScript - VS Code](https://code.visualstudio.com/docs/typescript/typescript-compiling)
+
+[CLI Options - TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
