@@ -2,7 +2,9 @@
 
 https://typescript-notlari.vercel.app/
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This repository contains the notes I have taken in Turkish while learning TypeScript. It serves as a compilation of my learnings and is a work in progress. 
+
+The website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 To use these notes, you can either clone this repository or download the source code as a ZIP file. Once you have the source code, you need to install the necessary dependencies by running the following command in the root directory of the project:
