@@ -15,3 +15,5 @@ sidebar_position: 5
 🔵 [TypeScript for Beginners - Academind](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 
 🔵 [TypeScript Fundamentals, v3 - Frontend Masters](https://frontendmasters.com/courses/typescript-v3/)
+
+🔵 [TypeScript Roadmap - roadman.sh](https://roadmap.sh/typescript)
