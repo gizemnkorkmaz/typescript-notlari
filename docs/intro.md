@@ -18,7 +18,7 @@ TypeScript'in resmi sitesinde bulunan **[TypeScript Handbook](https://www.typesc
 
 Örneğin JavaScript ile `string` ve `number` gibi primitive değerleri kullanırız ancak bunları tutarlı şekilde atadığınızın takibini yapamayız. TypeScript ile bunu yaparız.
 
-Bu açıdan bakıldığında JavaScript kodlarınız zaten hali hazırda TypeScript kodudur. TypeScript sadece olası hatalardan sizi korumak için fayda sağlamakla görevlidir. Projelerinizde çok büyük değişiklikler yapmadan kodlarınızı TypeScript'e geçirebilir ve bir yandan öğrenme sürecinize devam edebilirsiniz.
+Bu açıdan bakıldığında TypeScript kodlarınız zaten hali hazırda JavaScript kodudur. TypeScript sadece olası hatalardan sizi korumak için fayda sağlamakla görevlidir. Projelerinizde çok büyük değişiklikler yapmadan kodlarınızı TypeScript'e geçirebilir ve bir yandan öğrenme sürecinize devam edebilirsiniz.
 
 
 #### Kaynaklar
