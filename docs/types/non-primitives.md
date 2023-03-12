@@ -110,7 +110,7 @@ let myObj: C = { a: 123, b: 'hello' };
 
 Fonksiyonlar JavaScript'te veriyi iletmenin temel araçlarından biridir. TypeScript, bu fonksiyonların hem input hem de output değerlerinin tiplerini belirlemenizi sağlar.
 
-Parametre type annotationlar parametre isminden hemen sonra gelir:
+Parametre type annotationlar, parametre isminden hemen sonra gelir:
 
 ```bash
 // Parameter type annotation
@@ -136,12 +136,14 @@ const names = ["Alice", "Bob", "Eve"];
  
 names.forEach(function (s) {
   console.log(s.toUppercase());
-Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?
+
+🚨 Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?
 });
 
 names.forEach((s) => {
   console.log(s.toUppercase());
-Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?
+
+🚨 Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?
 });
 ```
 `s` parametresinin herhangi bir tip değeri olmamasına rağmen TypeScript array'in tipine göre `s`'in alacağı değeri belirleyebildi. Buna **contextual typing** adı veriliyor çünkü fonksiyonun gerçekleştiği *context* hangi tipleri alması gerektiğini belirliyor.

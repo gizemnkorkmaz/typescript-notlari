@@ -29,7 +29,7 @@ message();
 
 * Static typing tam anlamıyla hataların önüne geçmenizi sağlamaz ancak onları daha erken fark edip düzeltebilmenizi, bu sayede uzun vadede daha az efor harcamanıza yardımcı olur.
 
-* Type annotationlar yazılan kod git gide detaylanıp daha karmaşık bir hale başladığında parçalara ayırma konusunda yardımcı olur. 
+* Type annotationlar yazılan kod git gide detaylanıp daha karmaşık bir hale gelmeye başladığında parçalara ayırma konusunda yardımcı olur. 
 
 * Eklenen tüm type annotationlar kendiliğinden bir tür teknik doküman olarak kullanılabilir ve ekibe yeni dahil olan geliştiricilerin projeye adapte olma süreçlerini daha kolay hale getirebilir.
 
